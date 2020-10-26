@@ -1,6 +1,4 @@
 user_number = int(input('Введите ваше число: '))
-num1 = user_number
-num2 = num1 * 11
-num3 = num1 * 111
-sum = (num1 + num2 + num3)
-print (sum)
+total = (user_number + int(str(user_number) + str(user_number)) +
+         int(str(user_number) + str(user_number)+ str(user_number)))
+print("Сумма чисел n + nn + nnn:" , total)
