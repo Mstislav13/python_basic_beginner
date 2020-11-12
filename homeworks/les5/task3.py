@@ -1,6 +1,6 @@
 firm = {'Иванов': 18000, 'Петров': 21000, 'Сидоров': 25000, 'Быков': 15000}
 try:
-    file_obj = open("file_3.txt", 'w')
+    file_obj = open("file_3.txt", 'w')  #когда дописываю encoding='UTF-8' не хочет работать
     for last_name, salary in firm.items():
         file_obj.write(last_name + ':' + str(salary) + "\n")
 except IOError:
