@@ -1,4 +1,4 @@
-my_text = open('new.txt', 'w')
+my_text = open('new.txt', 'w', encoding='UTF-8')
 line = input('Введите текст: \n')
 while line:
     my_text.writelines(line)
